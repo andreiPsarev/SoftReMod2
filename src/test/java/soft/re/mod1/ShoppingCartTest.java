@@ -22,6 +22,7 @@ public class ShoppingCartTest {
         assertEquals("       12345678 ", sb.toString());
         sb = new StringBuilder();
         ShoppingCart.appendFormatted(sb, "12345678", -1, 15);
+
         assertEquals("12345678        ", sb.toString());
         sb = new StringBuilder();
     }
